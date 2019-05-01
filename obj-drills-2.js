@@ -103,6 +103,18 @@ const studentData = [
 
 function enrollInSummerSchool(students) {
   // your code here
+  let arr = [];
+  arr = students.map( function(obj) {
+    obj.status = 'In Summer school';
+    return obj;
+
+  } );
+
+  return arr;
+  // console.log(students);
+  
+
+
 }
 
 /* From here down, you are not expected to understand.... for now :)
